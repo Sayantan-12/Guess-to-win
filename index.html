@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess to win</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cont">
+        <!-- <img src="back.jpg" alt=""> -->
+        <div class="heading">
+            <h2>GUESS TO WIN!!!</h2>
+        </div>
+        <div class="inst">
+            <h3>Try and Guess a random number between 1 and 100</h3>
+            <h3>You have 10 Attempts to guess the number correctly!</h3>
+        </div>
+        <div class="ack">
+            <h2><span class="cr">Created By <br></span><span id="name">Sayantan Nandi</span></h2>
+        </div>
+        <div class="main">
+            <h1>GUESS THE NUMBER</h1>
+            <input type="text" id="inp"><br>
+            <button id="btn">GUESS IT!</button>
+            <h3 id="pr">Previous guesses : <span id="prev"></span></h3>
+            <h3>Guess Remaining : <span id="rem">10</span></h3>
+            <h2 id="lowhi"></h2>
+            <button id="btn-2" onclick="newg()">NEW GAME</button>
+            
+        </div><br>
+    </div>
+    <script src="project2.js"></script>
+    
+</body>
+</html>
